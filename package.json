@@ -4,8 +4,7 @@
     "description":"",
     "main":"index.js",
     "scripts":{
-        "test":"mocha",
-        "lint": "eslint **/**.js -c config.eslintrc -f checkstyle"
+        "test":"mocha"        
     },
     "keywords":[],
     "author":"",
