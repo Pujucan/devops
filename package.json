@@ -4,7 +4,8 @@
     "description":"",
     "main":"index.js",
     "scripts":{
-        "test":"mocha"        
+        "test":"mocha",
+        "lint": "standard --verbose | snazzy"        
     },
     "keywords":[],
     "author":"",
@@ -14,7 +15,6 @@
         "eslint":"^8.22.0",
         "eslint-config-google":"^0.14.0"},
 
-    "start": "node node_modules/react-native/local-cli/cli.js start", 
-    "lint": "standard --verbose | snazzy", 
+    "start": "node node_modules/react-native/local-cli/cli.js start",      
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy" 
     }
