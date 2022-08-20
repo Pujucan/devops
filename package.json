@@ -5,7 +5,7 @@
     "main":"index.js",
     "scripts":{
         "test":"mocha",
-        "lint": "standard --verbose | snazzy"        
+        "lint": "eslint -r *.js"        
     },
     "keywords":[],
     "author":"",
